@@ -1,0 +1,57 @@
+/* OVERRIDE SWIPER SLIDE */
+
+.swiper {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.slide-img{
+	width: 100%;
+	height: 600px;
+}
+
+.content-overlay{
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	color: rgb(240, 233, 233);
+}
+
+.content-overlay .content-title{
+	font-size: 46px;
+	font-weight: 600;
+	line-height: 48px;
+}
+
+.content-overlay .content-description{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.content-overlay .content-readmore .btn:hover{
+	background-color: transparent;
+	color: rgb(240, 232, 232);
+	border: unset;
+}
+
+.swiper .swiper-pagination{
+	width: auto;
+	position: absolute;
+	bottom: 20px;
+	left: 10%;
+}
+
+.swiper-pagination-bullet{
+	background-color: aliceblue;
+	transition: all 0.3s ease-in-out;
+	border: 1px solid black;
+}
+.swiper-pagination-bullet-active{
+	width: 24px;
+	border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 0;
+}
