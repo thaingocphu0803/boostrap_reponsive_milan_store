@@ -16,6 +16,29 @@
 		})
 	};
 
+	HT.saleCountDown = (saleTime) => {
+		setInterval(() => {
+			let saleEndTime = new Date(saleTime).getTime();
+			let now = new Date().getTime();
+	
+			let timeLeft = saleEndTime - now;
+	
+			if(timeLeft < 0){
+				clearInterval();
+			}else{
+				let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+				let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+				let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+	
+				$('.days').text(days);
+				$('.hours').text(hours);
+				$('.minutes').text(minutes);
+				$('.seconds').text(seconds);
+			}
+		}, 1000)
+	}
+
 	HT.swiper = (className) =>{
 		new Swiper(`.${className}`, {
 			// Optional parameters
@@ -41,5 +64,6 @@
 		HT.openDropdown('dropdown-btn');
 		HT.openDropdown('nav-link');
 		HT.swiper('swiper');
+		HT.saleCountDown('1 January 2026 00:00:00');
 	});
 })(jQuery)
