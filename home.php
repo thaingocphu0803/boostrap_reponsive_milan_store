@@ -841,7 +841,7 @@
 										</div>
 									</div>
 									<div class="tab-pane fade" id="nav-rating" role="tabpanel" aria-labelledby="nav-rating-tab" tabindex="0">
-									<div class="row row-gap-3">
+										<div class="row row-gap-3">
 											<div class="tab-content-product col-lg-3 col-md-4 col-sm-6 col-12 border-end">
 												<div class="product-item">
 													<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
@@ -1069,7 +1069,7 @@
 										</div>
 									</div>
 									<div class="tab-pane fade" id="nav-selling" role="tabpanel" aria-labelledby="nav-selling-tab" tabindex="0">
-									<div class="row row-gap-3">
+										<div class="row row-gap-3">
 											<div class="tab-content-product col-lg-3 col-md-4 col-sm-6 col-12 border-end">
 												<div class="product-item">
 													<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
@@ -1299,6 +1299,244 @@
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel-banner">
+			<div class="containter-fluid px-xl-5 px-lg-1 my-5 px-3 me-lg-3">
+				<span class="position-relative">
+					<img class="object-fit-cover" src="/resources/img/banner.webp" alt="">
+					<div class="position-absolute top-50 start-50 translate-middle text-center d-flex flex-column row-gap-3">
+						<div class="banner-title">
+							<span class="fs-1 fw-bold text-white">New Collection for new year.</span>
+						</div>
+						<div class="banner-description">
+							<span class="fs-3 fw-semibold text-white">Up to 60% off Accessories.</span>
+						</div>
+						<?php include __DIR__ . '/components/content_readmore.php'; ?>
+					</div>
+				</span>
+			</div>
+		</div>
+		<div class="panel-categories">
+			<div class="containter-fluid px-xl-5 px-lg-1 my-5 px-3 me-lg-3">
+				<div class="panel-head">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="heading-2 fs-3">
+							<a class="text-decoration-none text-black-50" href="" title="">Apparel</a>
+						</div>
+						<div class="categories-children">
+							<div class="d-flex justify-content-center gap-5">
+								<a class="text-decoration-none text-black-50" href="" title="">Man</a>
+								<a class="text-decoration-none text-black-50" href="" title="">Women</a>
+								<a class="text-decoration-none text-black-50" href="" title="">Baby</a>
+								<a class="text-decoration-none text-black-50" href="" title="">Collections</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-body position-relative">
+					<div class="swiper freemode">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="product-item">
+									<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
+									<a href="" title="">
+										<img class="img-default object-fit-scale" src="/resources/img/selling/selling7.webp" alt="">
+										<img class="img-hover object-fit-scale" src="/resources/img/selling/selling7-2.webp" alt="">
+									</a>
+									<?php include __DIR__ . '/components/countdown.php' ?>
+									<?php include __DIR__ . '/components/product_toolbox.php' ?>
+									<div class="infor text-center mt-2">
+										<?php include __DIR__ . '/components/product_review.php' ?>
+										<div class="product-name mt-1">
+											<a class="text-decoration-none fs-12 fw-semibold" href="" title=""><span>Pre-Match T-Shirt 2024/25</span></a>
+										</div>
+										<div class="product-price mt-1">
+											<div class="d-flex justify-content-center gap-2 align-items-end">
+												<span class="price-main text-decoration-line-through">
+													$115
+												</span>
+												<span class="price-sale fs-4 text-orange fw-medium">
+													$104
+												</span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="product-item">
+									<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
+									<a href="" title="">
+										<img class="img-default object-fit-scale" src="/resources/img/selling/selling7.webp" alt="">
+										<img class="img-hover object-fit-scale" src="/resources/img/selling/selling7-2.webp" alt="">
+									</a>
+									<?php include __DIR__ . '/components/countdown.php' ?>
+									<?php include __DIR__ . '/components/product_toolbox.php' ?>
+									<div class="infor text-center mt-2">
+										<?php include __DIR__ . '/components/product_review.php' ?>
+										<div class="product-name mt-1">
+											<a class="text-decoration-none fs-12 fw-semibold" href="" title=""><span>Pre-Match T-Shirt 2024/25</span></a>
+										</div>
+										<div class="product-price mt-1">
+											<div class="d-flex justify-content-center gap-2 align-items-end">
+												<span class="price-main text-decoration-line-through">
+													$115
+												</span>
+												<span class="price-sale fs-4 text-orange fw-medium">
+													$104
+												</span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="product-item">
+									<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
+									<a href="" title="">
+										<img class="img-default object-fit-scale" src="/resources/img/selling/selling7.webp" alt="">
+										<img class="img-hover object-fit-scale" src="/resources/img/selling/selling7-2.webp" alt="">
+									</a>
+									<?php include __DIR__ . '/components/countdown.php' ?>
+									<?php include __DIR__ . '/components/product_toolbox.php' ?>
+									<div class="infor text-center mt-2">
+										<?php include __DIR__ . '/components/product_review.php' ?>
+										<div class="product-name mt-1">
+											<a class="text-decoration-none fs-12 fw-semibold" href="" title=""><span>Pre-Match T-Shirt 2024/25</span></a>
+										</div>
+										<div class="product-price mt-1">
+											<div class="d-flex justify-content-center gap-2 align-items-end">
+												<span class="price-main text-decoration-line-through">
+													$115
+												</span>
+												<span class="price-sale fs-4 text-orange fw-medium">
+													$104
+												</span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="product-item">
+									<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
+									<a href="" title="">
+										<img class="img-default object-fit-scale" src="/resources/img/selling/selling7.webp" alt="">
+										<img class="img-hover object-fit-scale" src="/resources/img/selling/selling7-2.webp" alt="">
+									</a>
+									<?php include __DIR__ . '/components/countdown.php' ?>
+									<?php include __DIR__ . '/components/product_toolbox.php' ?>
+									<div class="infor text-center mt-2">
+										<?php include __DIR__ . '/components/product_review.php' ?>
+										<div class="product-name mt-1">
+											<a class="text-decoration-none fs-12 fw-semibold" href="" title=""><span>Pre-Match T-Shirt 2024/25</span></a>
+										</div>
+										<div class="product-price mt-1">
+											<div class="d-flex justify-content-center gap-2 align-items-end">
+												<span class="price-main text-decoration-line-through">
+													$115
+												</span>
+												<span class="price-sale fs-4 text-orange fw-medium">
+													$104
+												</span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="product-item">
+									<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
+									<a href="" title="">
+										<img class="img-default object-fit-scale" src="/resources/img/selling/selling7.webp" alt="">
+										<img class="img-hover object-fit-scale" src="/resources/img/selling/selling7-2.webp" alt="">
+									</a>
+									<?php include __DIR__ . '/components/countdown.php' ?>
+									<?php include __DIR__ . '/components/product_toolbox.php' ?>
+									<div class="infor text-center mt-2">
+										<?php include __DIR__ . '/components/product_review.php' ?>
+										<div class="product-name mt-1">
+											<a class="text-decoration-none fs-12 fw-semibold" href="" title=""><span>Pre-Match T-Shirt 2024/25</span></a>
+										</div>
+										<div class="product-price mt-1">
+											<div class="d-flex justify-content-center gap-2 align-items-end">
+												<span class="price-main text-decoration-line-through">
+													$115
+												</span>
+												<span class="price-sale fs-4 text-orange fw-medium">
+													$104
+												</span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="product-item">
+									<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
+									<a href="" title="">
+										<img class="img-default object-fit-scale" src="/resources/img/selling/selling7.webp" alt="">
+										<img class="img-hover object-fit-scale" src="/resources/img/selling/selling7-2.webp" alt="">
+									</a>
+									<?php include __DIR__ . '/components/countdown.php' ?>
+									<?php include __DIR__ . '/components/product_toolbox.php' ?>
+									<div class="infor text-center mt-2">
+										<?php include __DIR__ . '/components/product_review.php' ?>
+										<div class="product-name mt-1">
+											<a class="text-decoration-none fs-12 fw-semibold" href="" title=""><span>Pre-Match T-Shirt 2024/25</span></a>
+										</div>
+										<div class="product-price mt-1">
+											<div class="d-flex justify-content-center gap-2 align-items-end">
+												<span class="price-main text-decoration-line-through">
+													$115
+												</span>
+												<span class="price-sale fs-4 text-orange fw-medium">
+													$104
+												</span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="product-item">
+									<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
+									<a href="" title="">
+										<img class="img-default object-fit-scale" src="/resources/img/selling/selling7.webp" alt="">
+										<img class="img-hover object-fit-scale" src="/resources/img/selling/selling7-2.webp" alt="">
+									</a>
+									<?php include __DIR__ . '/components/countdown.php' ?>
+									<?php include __DIR__ . '/components/product_toolbox.php' ?>
+									<div class="infor text-center mt-2">
+										<?php include __DIR__ . '/components/product_review.php' ?>
+										<div class="product-name mt-1">
+											<a class="text-decoration-none fs-12 fw-semibold" href="" title=""><span>Pre-Match T-Shirt 2024/25</span></a>
+										</div>
+										<div class="product-price mt-1">
+											<div class="d-flex justify-content-center gap-2 align-items-end">
+												<span class="price-main text-decoration-line-through">
+													$115
+												</span>
+												<span class="price-sale fs-4 text-orange fw-medium">
+													$104
+												</span>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination position-absolute bottom-0 start-50 translate-middle"></div>
 					</div>
 				</div>
 			</div>
