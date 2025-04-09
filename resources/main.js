@@ -45,32 +45,54 @@
 
 	HT.swiper = (className) => {
 		new Swiper(`.${className}`, {
-			// Optional parameters
 			direction: "horizontal",
 			loop: false,
-
-			// If we need pagination
 			pagination: {
 				el: ".swiper-pagination",
 				clickable: true,
 			},
-
-			// Navigation arrows
-			// navigation: {
-			//   nextEl: '.swiper-button-next',
-			//   prevEl: '.swiper-button-prev',
-			// },
 		});
 	};
 
 	HT.swiperFreedom = (className) => {
 		new Swiper(`.${className}`, {
-			slidesPerView: 4,
+			slidesPerView: 6,
 			spaceBetween: 30,
 			freeMode: true,
-			pagination: {
-			  el: ".swiper-pagination",
-			  clickable: true,
+			slidesOffsetAfter: 0,
+			breakpoints: {
+				1280: {
+					slidesPerView: 5,
+					spaceBetween: 10,
+				},
+				1024: {
+					slidesPerView: 4,
+					spaceBetween: 10,
+				},
+				800: {
+					slidesPerView: 3,
+					spaceBetween: 10,
+				},
+				768: {
+					slidesPerView: 3,
+					spaceBetween: 10,
+				},
+				600: {
+					slidesPerView: 2,
+					spaceBetween: 10,
+				},
+				414: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				},
+				375: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				},
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
 			},
 		});
 	};
@@ -81,6 +103,6 @@
 		HT.openDropdown("nav-link");
 		HT.swiper("swiper");
 		HT.saleCountDown("1 January 2026 00:00:00");
-		HT.swiperFreedom("freemode")
+		HT.swiperFreedom("freemode");
 	});
 })(jQuery);

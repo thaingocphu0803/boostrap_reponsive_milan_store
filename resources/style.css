@@ -447,7 +447,34 @@
 .freemode >.swiper-wrapper >.swiper-slide > .product-item > .infor > .product-price > div > .price-sale {
 	font-size: 18px !important;
 }
+ /* PANEL CATEGORIES */
+.panel-head > .d-flex > .categories-children > div > a:hover{
+	border: 2px dashed rgb(233, 114, 29);
+}
 
+.panel-head > .d-flex > .categories-children > div > .active{
+	border: 2px dashed rgb(233, 114, 29);
+}
+
+/* PANEL BRAND */
+.brand-item > span > img {
+	width: 100%;
+	height: 150px;
+}
+
+/* FOOTER*/
+.footer-information > .logo > a > img {
+	width: 75px;
+	height: 50px;
+}
+
+.footer-information > .social > .d-flex > a {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 3px;
+}
+ 
 /* RESPONSIVE */
 /*1920, 1280, 1080, 1024, 800, 768, 736, 600, 415, 375 */
 @media (max-width: 1280px) {
@@ -488,6 +515,13 @@
 	}
 	.dropdown-menu > li > .dropdown-item-close::before {
 		left: -40px;
+	}
+	.brand-item > a > img {
+		width: 100%;
+		height: 100px;
+	}
+	.panel-brand >	.containter-fluid > .panel-body {
+		margin-top: unset !important;
 	}
 }
 
@@ -555,6 +589,9 @@
 	.advertise-item > .content-overlay > .content-title{
 		font-size: 20px;
 		line-height: 23px;
+	}
+	.panel-brand > .containter-fluid > .panel-body > .freemode {
+		height: fit-content;
 	}
 }
 
@@ -640,6 +677,9 @@
 	}
 	.product-wrapper > nav > ul > li > .nav-link > span {
 		font-size: 12px !important;
+	}
+	.panel-categories > .containter-fluid > .panel-body > .freemode {
+		height: fit-content;
 	}
 }
 
