@@ -62,18 +62,30 @@
 			<h3 class="fs-5">Colors</h3>
 		</div>
 		<div class="aside-body p-3 d-flex justify-content-start align-items-center gap-3">
-			<span class="color-item position-relative" style="background-color: #52b745;">
-				<input class="position-absolute top-50 start-50 translate-middle" type="checkbox" name="" value="">
-			</span>
-			<span class="color-item position-relative" style="background-color: #dd9933;">
-				<input class="position-absolute top-50 start-50 translate-middle" type="checkbox" name="" value="">
-			</span>
-			<span class="color-item position-relative" style="background-color: #f45a8d;">
-				<input class="position-absolute top-50 start-50 translate-middle" type="checkbox" name="" value="">
-			</span>
-			<span class="color-item position-relative" style="background-color: #dd3333;">
-				<input class="position-absolute top-50 start-50 translate-middle" type="checkbox" name="" value="">
-			</span>
+			<label class="color-item position-relative" style="background-color: #52b745;">
+				<input class="opacity-0" type="checkbox" name="" value="">
+				<span class="check-mark text-white fs-4 position-absolute top-50 start-50 translate-middle">
+					<i class="bi bi-check2"></i>
+				</span>
+			</label>
+			<label class="color-item position-relative" style="background-color: #dd9933;">
+				<input class="opacity-0" type="checkbox" name="" value="">
+				<span class="check-mark text-white fs-4 position-absolute top-50 start-50 translate-middle">
+					<i class="bi bi-check2"></i>
+				</span>
+			</label>
+			<label class="color-item position-relative" style="background-color: #f45a8d;">
+				<input class="opacity-0" type="checkbox" name="" value="">
+				<span class="check-mark text-white fs-4 position-absolute top-50 start-50 translate-middle">
+					<i class="bi bi-check2"></i>
+				</span>
+			</label>
+			<label class="color-item position-relative" style="background-color: #dd3333;">
+				<input class="opacity-0" type="checkbox" name="" value="">
+				<span class="check-mark text-white fs-4 position-absolute top-50 start-50 translate-middle">
+					<i class="bi bi-check2"></i>
+				</span>
+			</label>
 		</div>
 	</div>
 
