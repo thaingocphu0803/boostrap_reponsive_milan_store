@@ -501,6 +501,18 @@
 	cursor: pointer;
 }
 
+.aside > .aside-panel > .aside-body > .color-item > .check-mark{
+	display: none;
+}
+
+.aside > .aside-panel > .aside-body > .color-item:hover > .check-mark{
+	display: block;
+}
+
+.aside > .aside-panel > .aside-body > .color-item > input:checked ~ .check-mark{
+	display: block;
+}
+
 /* RESPONSIVE */
 /*1920, 1280, 1080, 1024, 800, 768, 736, 600, 415, 375 */
 @media (max-width: 1280px) {
