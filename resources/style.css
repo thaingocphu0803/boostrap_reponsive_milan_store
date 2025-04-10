@@ -474,7 +474,32 @@
 	text-align: center;
 	padding: 3px;
 }
- 
+
+/* PRODUCT CATALOUGE BANNER */
+
+.product-catalouge-wrapper > .product-catalouge-banner > span > img{
+	width: 100%;
+	height: 250px;
+}
+/* ASIDE PANEL */
+.accordion > .accordion-item > .accordion-header > .accordion-button:hover{
+	color: rgb(221, 83, 83);
+}
+
+.accordion > .accordion-item > .accordion-collapse > .accordion-body > ul > li:hover{
+	color: rgb(221, 83, 83) !important;
+}
+
+.accordion > .accordion-item > .accordion-collapse > .accordion-body > ul > li:hover > a{
+	color: rgb(221, 83, 83) !important;
+}
+
+.aside > .aside-panel > .aside-body > .color-item{
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+}
+
 /* RESPONSIVE */
 /*1920, 1280, 1080, 1024, 800, 768, 736, 600, 415, 375 */
 @media (max-width: 1280px) {

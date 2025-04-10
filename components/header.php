@@ -162,7 +162,7 @@
 				<nav class="navigation d-none d-sm-block">
 					<ul class="nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#" title="">
+							<a class="nav-link" href="/product_catalouge.php" title="">
 								<span>Home</span>
 
 								<span class="d-inline-block">

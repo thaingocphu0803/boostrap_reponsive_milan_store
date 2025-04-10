@@ -97,6 +97,20 @@
 		});
 	};
 
+	HT.rangeSlide = (classRange, classAmount) => {
+		$( `.${classRange}` ).slider({
+			range: true,
+			min: 0,
+			max: 500,
+			values: [ 0, 500 ],
+			slide: function( event, ui ) {
+			  $( `.${classAmount}` ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			}
+		  });
+		  $( `.${classAmount}` ).val( "$" + $( `.${classRange}` ).slider( "values", 0 ) +
+			" - $" + $( `.${classRange}` ).slider( "values", 1 ) );
+	}
+
 	$(document).ready(function () {
 		HT.openDropdown("department-wrapper");
 		HT.openDropdown("dropdown-btn");
@@ -104,5 +118,6 @@
 		HT.swiper("swiper");
 		HT.saleCountDown("1 January 2026 00:00:00");
 		HT.swiperFreedom("freemode");
+		HT.rangeSlide("slider-range", "amount");
 	});
 })(jQuery);
