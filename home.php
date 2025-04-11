@@ -617,7 +617,7 @@
 											<div class="tab-content-product col-lg-3 col-md-4 col-sm-6 col-12 border-end">
 												<div class="product-item">
 													<div class="badge bg-danger rounded-pill px-3 py-2">-10%</div>
-													<a href="" title="">
+													<a href="/product.php" title="">
 														<img class="img-default object-fit-scale" src="/resources/img/latest/latest1.webp" alt="">
 														<img class="img-hover object-fit-scale" src="/resources/img/latest/latest1-2.webp" alt="">
 													</a>

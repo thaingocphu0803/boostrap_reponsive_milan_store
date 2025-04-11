@@ -111,6 +111,24 @@
 			" - $" + $( `.${classRange}` ).slider( "values", 1 ) );
 	}
 
+	HT.quantityChangeEvent = () => {
+		$('.minus, .plus').on('click', function () {
+		  const isMinus = $(this).hasClass('minus');
+		  const $input = $(this).siblings('.input-quantity');
+	  
+		  let currentVal = parseInt($input.val()) || 0;
+	  
+		  if (isMinus) {
+			if (currentVal > 0) {
+			  $input.val(currentVal - 1);
+			}
+		  } else {
+			$input.val(currentVal + 1);
+		  }
+		});
+	  };
+	  
+
 	$(document).ready(function () {
 		HT.openDropdown("department-wrapper");
 		HT.openDropdown("dropdown-btn");
@@ -119,5 +137,6 @@
 		HT.saleCountDown("1 January 2026 00:00:00");
 		HT.swiperFreedom("freemode");
 		HT.rangeSlide("slider-range", "amount");
+		HT.quantityChangeEvent();
 	});
 })(jQuery);

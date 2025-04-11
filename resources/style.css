@@ -513,6 +513,93 @@
 	display: block;
 }
 
+
+.aside > .aside-panel > .aside-body > .brand-item{
+	cursor: pointer;
+}
+
+.aside > .aside-panel > .aside-body > .brand-item:hover > .brand-name{
+		color: rgb(221, 83, 83) !important;
+}
+
+.aside > .aside-panel > .aside-body > .brand-item:hover > .check-mark{
+	border-color: rgb(221, 83, 83) !important;
+}
+
+.aside > .aside-panel > .aside-body > .brand-item:hover > .check-mark > i{
+	display: block;
+}
+
+.aside > .aside-panel > .aside-body > .brand-item > .check-mark{
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+
+}
+
+.aside > .aside-panel > .aside-body > .brand-item > .check-mark > i{
+	font-size: 10px;
+	color: rgb(228, 61, 61);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.aside > .aside-panel > .aside-body > .brand-item > input:checked ~ .check-mark > i{
+	display: block;
+}
+
+.aside > .aside-panel > .aside-body > .brand-item > input:checked ~ .check-mark{
+	border-color: rgb(221, 83, 83) !important;
+}
+
+/* PRODUCT */
+.product-detail >.panel-head > .product-brand > a:hover{
+	color: #3d3b3b !important;
+}
+
+.product-detail >.panel-body > .sold-by > a:hover{
+	color: #3d3b3b !important;
+}
+
+.product-action > .d-flex > .quantity-wrapper > .input-quantity {
+	border: unset;
+	outline: unset;
+}
+
+.product-action > .d-flex > .quantity-wrapper > .change-quantity {
+	border: unset;
+	outline: unset;
+	padding: 0;
+}
+
+.panel-foot > .compare-wishlist > .d-flex > .btn > span:nth-child(1) {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	padding: 12px;
+}
+
+.panel-foot > .compare-wishlist > .d-flex > .btn:hover {
+	color: rgb(221, 83, 83) !important;
+}
+
+.panel-foot > .compare-wishlist > .d-flex > .btn:hover > span:nth-child(1) {
+	border-color: rgb(221, 83, 83) !important;
+}
+
+.product-gallery > img {
+	width: 100%;
+}
+
 /* RESPONSIVE */
 /*1920, 1280, 1080, 1024, 800, 768, 736, 600, 415, 375 */
 @media (max-width: 1280px) {
@@ -631,6 +718,60 @@
 	.panel-brand > .containter-fluid > .panel-body > .freemode {
 		height: fit-content;
 	}
+
+	.aside > .aside-panel > .aside-body > .color-item{
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+
+	.product-catalouge-wrapper > .product-catalouge-banner > span > img{
+		width: 100%;
+		height: 250px;
+	}
+
+	.aside > .aside-panel > .aside-head > h3 {
+		font-size: 16px !important;
+	}
+	.accordion-item > .accordion-header > .accordion-button{
+		font-size: 14px !important;
+	}
+	.accordion-item > .collapse > .accordion-body > ul >li > a{
+		font-size: 12px !important;
+	}
+	.aside > .aside-panel > .aside-body > .brand-item > .brand-name {
+		font-size: 14px !important;
+	}
+	.product-catalouge-container > .panel-head > .heading-1 {
+		font-size: 16px !important;
+	}
+	.panel-foot > .product-action > .d-flex > .quantity-wrapper > .input-quantity {
+		display: flex !important;
+		justify-self: center !important;
+	}
+	.product-detail > .panel-head > .heading-1 {
+		font-size: 16px !important;
+	}
+	.product-detail > .panel-head > .product-brand {
+		font-size: 14px !important;
+	}
+	.product-detail > .panel-head > .product-price >.product-price > .d-flex > span:first-child {
+		font-size: 14px !important;
+	}
+	.product-detail > .panel-head > .product-price >.product-price > .d-flex > span:last-child {
+		font-size: 18px !important;
+	}
+	.product-detail > .panel-body > .sold-by {
+		font-size: 14px;
+	}
+	.product-detail > .panel-body > .description > ul > li {
+		font-size: 14px;
+	}
+
+	.compare-title, .wishlist-title {
+		font-size: 14px !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -686,6 +827,9 @@
 		font-size: 16px;
 		line-height: 19px;
 	}
+	.breadcrumb > .breadcrumb-item > a {
+		font-size: 14px !important;
+	}
 }
 
 @media (max-width: 415px) {
@@ -718,6 +862,13 @@
 	}
 	.panel-categories > .containter-fluid > .panel-body > .freemode {
 		height: fit-content;
+	}
+	.aside > .aside-panel > .aside-body > .brand-item > .brand-name {
+		font-size: 12px !important;
+	}
+	.product-catalouge-wrapper > .product-catalouge-banner > span > img{
+		width: 100%;
+		height: 150px;
 	}
 }
 
