@@ -127,8 +127,20 @@
 		  }
 		});
 	  };
-	  
 
+	HT.openSubCategory = (className) => {
+		$(`.${className}`).click(function () {
+			let _this = $(this.firstElementChild);
+			if (_this.hasClass("openCaret")) {
+				_this.removeClass("openCaret");
+				_this.addClass("closeCaret");
+			} else {
+				_this.addClass("openCaret");
+				_this.removeClass("closeCaret");
+			}
+		});
+	}
+	
 	$(document).ready(function () {
 		HT.openDropdown("department-wrapper");
 		HT.openDropdown("dropdown-btn");
@@ -138,5 +150,6 @@
 		HT.swiperFreedom("freemode");
 		HT.rangeSlide("slider-range", "amount");
 		HT.quantityChangeEvent();
+		HT.openSubCategory("sub-category");
 	});
 })(jQuery);

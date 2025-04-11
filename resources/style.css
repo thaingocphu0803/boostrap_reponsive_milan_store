@@ -482,6 +482,18 @@
 	height: 250px;
 }
 /* ASIDE PANEL */
+
+.accordion-item > .collapse > .accordion-body > ul > li > span:first-child{
+	transition: all 0.4s ease-in-out;
+}
+.openCaret{
+	rotate: 90deg;
+}
+
+.closeCaret{
+	rotate: 0deg;
+}
+
 .accordion > .accordion-item > .accordion-header > .accordion-button:hover{
 	color: rgb(221, 83, 83);
 }

@@ -18,21 +18,21 @@
 						<div id="<?php echo str_replace(' ', '_', $category); ?>" class="accordion-collapse collapse" data-bs-parent="#accordion">
 							<div class="accordion-body">
 								<ul class="ps-0">
-									<li class="list-unstyled">
-										<span><i class="bi bi-caret-right-fill"></i></span>
-										<a class="text-decoration-none text-black-50 fs-6" href="" title="">sub category 1 (0)</a>
+									<li class="list-unstyled sub-category">
+										<span class="d-inline-block"><i class="bi bi-caret-right-fill"></i></span>
+										<a class="text-decoration-none text-black-50 fs-6" href="#" title="">sub category 1 (0)</a>
 									</li>
-									<li class="list-unstyled">
-										<span><i class="bi bi-caret-right-fill"></i></span>
-										<a class="text-decoration-none text-black-50 fs-6" href="" title="">sub category 2 (0)</a>
+									<li class="list-unstyled sub-category">
+										<span class="d-inline-block"><i class="bi bi-caret-right-fill"></i></span>
+										<a class="text-decoration-none text-black-50 fs-6" href="#" title="">sub category 2 (0)</a>
 									</li>
-									<li class="list-unstyled">
-										<span><i class="bi bi-caret-right-fill"></i></span>
-										<a class="text-decoration-none text-black-50 fs-6" href="" title="">sub category 3 (0)</a>
+									<li class="list-unstyled sub-category">
+										<span class="d-inline-block"><i class="bi bi-caret-right-fill"></i></span>
+										<a class="text-decoration-none text-black-50 fs-6" href="#" title="">sub category 3 (0)</a>
 									</li>
-									<li class="list-unstyled">
-										<span><i class="bi bi-caret-right-fill"></i></span>
-										<a class="text-decoration-none text-black-50 fs-6" href="" title="">sub category 4 (0)</a>
+									<li class="list-unstyled sub-category">
+										<span class="d-inline-block"><i class="bi bi-caret-right-fill"></i></span>
+										<a class="text-decoration-none text-black-50 fs-6" href="#" title="">sub category 4 (0)</a>
 									</li>
 								</ul>
 							</div>
